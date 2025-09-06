@@ -1,0 +1,78 @@
+body{
+    background-color: ghostwhite;
+    height: 60vh;
+} 
+
+body.dark-mode {
+    background-color: gray;
+}
+
+#welcome{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-direction: column;
+    background:beige;
+    color:black;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    padding: 10px;
+} 
+
+#welcome-btn{
+    background: darkslategrey;
+    color: beige;
+}
+#theme{
+    background: darkslategrey;
+    color: beige;
+} 
+
+.faq-question{
+    background:beige;
+    display: flex;
+    gap: 0.5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 12px;
+} 
+
+.dropdown{
+    display: flex;
+    background:beige;
+    gap: 0.5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 12px;
+} 
+
+.registration{
+    display: flex;
+    background:beige;
+    display: flex;
+    gap: 0.5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 75%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    border-radius: 12px;
+} 
+
+#login{ 
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: darkslategrey;
+    color: beige;
+}
